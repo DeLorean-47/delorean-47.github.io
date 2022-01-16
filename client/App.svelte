@@ -2,5 +2,13 @@
 
 </script>
 <div>
-  <h1>Hello world</h1>
+  <nav></nav>
 </div>
+
+<style>
+  nav {
+    background-color: brown;
+    height: 50px;
+    padding: 0px;
+  }
+</style>
