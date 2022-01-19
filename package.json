@@ -2,28 +2,29 @@
   "name": "splash-page",
   "version": "1.0.0",
   "description": "Website for DeLorean devtool",
-  "main": "index.js",
+  "main": "./public/build/bundle.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "cross-env NODE_ENV=production node server/server.js",
-    "build": "cross-env NODE_ENV=production webpack",
-    "dev": "concurrently \"cross-env NODE_ENV=development webpack serve\" \"cross-env NODE_ENV=development node server/server.js\""
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DeLorean-47/splash-page.git"
+    "url": "git+https://github.com/DeLorean-47/delorean-47.github.io"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DeLorean-47/splash-page/issues"
+    "url": "https://github.com/DeLorean-47/delorean-47.github.io/issues"
   },
-  "homepage": "https://github.com/DeLorean-47/splash-page#readme",
+  "homepage": "https://github.com/DeLorean-47/delorean-47.github.io#readme",
   "dependencies": {
     "babel-loader": "^8.2.3",
     "express": "^4.17.2",
     "gh-pages": "^3.2.3",
+    "rollup": "^2.64.0",
     "svelte": "^3.46.2",
     "svelte-loader": "^3.1.2"
   },
