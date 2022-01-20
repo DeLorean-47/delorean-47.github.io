@@ -77,6 +77,7 @@
   }
 
   #logo {
+    background-image: ;
     padding-top: 14rem;
     padding-bottom: 5rem;
     animation: fadein 1.5s ease-in;
