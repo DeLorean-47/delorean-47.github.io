@@ -226,6 +226,11 @@
     box-shadow: 0px 0px 20px rgb(206, 206, 206);
     border-radius: 10%/35%;
     transition: transform 0.4s;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
   }
   
     #githubButton:hover {
