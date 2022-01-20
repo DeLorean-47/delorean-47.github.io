@@ -13,13 +13,13 @@
 </svelte:head>
 
 <div class="header">
-  <img id="logo" class="center" src={logo} alt="logo" />
+  <img id="logo" class="center" src="../assets/logo(white).png" alt="logo" />
   <br />
   <!-- <button class="center">Chrome WebStore</button> -->
   <img
     class="center"
     id="chromeButton"
-    src={webstore}
+    src="../assets/webstore-button.png"
     alt="chrome-webstore-button"
   />
 </div>
