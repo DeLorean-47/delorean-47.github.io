@@ -1,6 +1,6 @@
 <script>
-  let logo = "./assets/logo(white).png";
-  let webstore = "./assets/webstore-button.png";
+  let logo = "../assets/logo(white).png";
+  let webstore = "../assets/webstore-button.png";
   // let feature1 = ;
   // let feature2 = ;
 </script>
