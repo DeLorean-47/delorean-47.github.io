@@ -219,7 +219,7 @@
 
   #logo {
     padding-top: 8rem;
-    padding-bottom: 4.5rem;
+    /* padding-bottom: 4.5rem; */
   }
 
   #githubButton {
