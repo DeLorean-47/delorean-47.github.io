@@ -69,7 +69,7 @@
   }
 
   .header {
-    background-image: url("../assets/header-background2.png");
+    background-image: url("../asset/header-background2.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 50rem;
