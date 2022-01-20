@@ -1,8 +1,14 @@
 <script>
+  import { fly } from 'svelte/transition';
+  import { onMount } from 'svelte';
   let logo = "../public/assets/logo(white).png";
   let webstore = "../public/assets/webstore-button.png";
   // let feature1 = ;
   // let feature2 = ;
+  let visible = false;
+  onMount(() => {
+    visible = true;
+  });
 </script>
 
 <svelte:head>
@@ -13,13 +19,15 @@
 </svelte:head>
 
 <div class="header">
-  <img id="logo" class="center" src="../public/assets/logo(white).png" alt="logo" />
+  {#if visible}
+    <img transition:fly="{{ y: -100, duration: 2000 }}" id="logo" class="center" src={logo} alt="logo" />
+  {/if}
   <br />
   <!-- <button class="center">Chrome WebStore</button> -->
   <img
     class="center"
     id="chromeButton"
-    src="../public/assets/webstore-button.png"
+    src={webstore}
     alt="chrome-webstore-button"
   />
 </div>
