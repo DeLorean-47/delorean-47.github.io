@@ -73,7 +73,7 @@
   ];
 
   onMount(() => {
-    visible = true;
+    setTimeout(() => { visible = true; }, 500)
   });
 
   // let bg = document.getElementById("header");
@@ -94,14 +94,16 @@
 
 
 <div id="header">
+  {#if visible}
   <div class="oslabs">
     <a href="https://opensourcelabs.io/"><img src={logos.oslabs} alt="OSLabs"></a>
   </div>
-  {#if visible}
+  <!-- {#if visible} -->
     <img transition:fly="{{ y: -50, duration: 1600 }}" id="logo" class="center" src={logos.delorean} alt="logo" >
-  {/if}
+  <!-- {/if} -->
   <br>
   <a href={links.gh} target="_blank"><img class="center" id="githubButton" src={logos.webstore} alt="github-webstore-button"></a>
+  {/if}
 </div>
 
 
