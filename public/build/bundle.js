@@ -579,8 +579,8 @@
     function instance($$self, $$props, $$invalidate) {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots('App', slots, []);
-    	let logo = "./assets/logo(white).png";
-    	let webstore = "./assets/webstore-button.png";
+    	let logo = "../assets/logo(white).png";
+    	let webstore = "../assets/webstore-button.png";
     	const writable_props = [];
 
     	Object.keys($$props).forEach(key => {
