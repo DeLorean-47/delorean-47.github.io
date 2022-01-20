@@ -343,9 +343,17 @@
     padding-bottom: 0.5em;
   }
   
-  #bottomLinks {
+  /* #bottomLinks {
     display: flex;
     justify-content: center;
+    background-color: white;
+  } */
+
+  #bottomLinks {
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
     background-color: white;
   }
 
