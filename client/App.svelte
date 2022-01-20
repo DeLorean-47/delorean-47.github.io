@@ -98,7 +98,7 @@
     <a href="https://opensourcelabs.io/"><img src={logos.oslabs} alt="OSLabs"></a>
   </div>
   {#if visible}
-    <img transition:fly="{{ y: -100, duration: 2000 }}" id="logo" class="center" src={logos.delorean} alt="logo" >
+    <img transition:fly="{{ y: -50, duration: 1600 }}" id="logo" class="center" src={logos.delorean} alt="logo" >
   {/if}
   <br>
   <a href={links.gh} target="_blank"><img class="center" id="githubButton" src={logos.webstore} alt="github-webstore-button"></a>
