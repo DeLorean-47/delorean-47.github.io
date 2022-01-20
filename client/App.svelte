@@ -215,6 +215,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 50rem;
+    animation: fade 1s;
   }
 
   #logo {
@@ -395,5 +396,10 @@
   .oslabs {
     padding: 1em;
     text-align: center;
+  }
+
+  @keyframes fade {
+    from { opacity: 0; }
+    to { opacity: 1; }
   }
 </style>
