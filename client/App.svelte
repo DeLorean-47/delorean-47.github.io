@@ -1,6 +1,6 @@
 <script>
-  let logo = "../assets/logo(white).png";
-  let webstore = "../assets/webstore-button.png";
+  let logo = "../public/assets/logo(white).png";
+  let webstore = "../public/assets/webstore-button.png";
   // let feature1 = ;
   // let feature2 = ;
 </script>
@@ -69,7 +69,7 @@
   }
 
   .header {
-    background-image: url("../asset/header-background2.png");
+    background-image: url("../assets/header-background2.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 50rem;
@@ -77,7 +77,6 @@
   }
 
   #logo {
-    background-image: ;
     padding-top: 14rem;
     padding-bottom: 5rem;
     animation: fadein 1.5s ease-in;
