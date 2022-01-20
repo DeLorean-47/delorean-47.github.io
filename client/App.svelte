@@ -81,13 +81,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 50rem;
-    animation: fadein 1s;
+    /* animation: fadein 1s; */
   }
 
   #logo {
     padding-top: 14rem;
     padding-bottom: 5rem;
-    animation: fadein 1.5s ease-in;
+    /* animation: fadein 1.5s ease-in; */
   }
 
   #chromeButton {
