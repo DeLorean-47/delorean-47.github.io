@@ -92,7 +92,7 @@
     <img transition:fly="{{ y: -100, duration: 2000 }}" id="logo" class="center" src={logo} alt="logo" >
   {/if}
   <br>
-  <img class="center" id="chromeButton" src={webstore} alt="chrome-webstore-button">
+  <!-- <img class="center" id="chromeButton" src={webstore} alt="chrome-webstore-button"> -->
 </div>
 
 
@@ -201,7 +201,7 @@
   }
 
   #header {
-    background-image: url(./assets/header-background2.png);
+    background-image: url(../assets/header-background2.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 50rem;
@@ -216,10 +216,10 @@
 
   }
 
-  #chromeButton {
+  /* #chromeButton {
     box-shadow: 0px 0px 20px rgb(206, 206, 206);
     border-radius: 10%/35%;
-  }
+  } */
 
   .whiteText {
     color: white;
