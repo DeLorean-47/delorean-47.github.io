@@ -54,7 +54,7 @@
     },
     {
       name: "Sam VanTassel",
-      bio: "LA guy from Minnesota by way of New Orleans. Big on board games, synthesizers and Mardi Gras parading.",
+      bio: "LA guy from Minnesota by way of New Orleans. Big on board games, synthesizers, and Mardi Gras parading.",
       ghHandle: "SamVanTassel",
       liHandle: "samvantassel",
       imgSrc: "../public/assets/sam.jpg",
@@ -63,7 +63,7 @@
     },
     {
       name: "Trevor Leung",
-      bio: "Australian software engineer based in Los Angeles. Has the ability to code upside down AND right-side up.",
+      bio: "Just an Aussie living in Los Angeles. Infatuated with Ted Talk riddles, scuba diving, and lollies.",
       ghHandle: "trevleung",
       liHandle: "trevleung",
       imgSrc: "../public/assets/trevor.jpg",
@@ -75,13 +75,6 @@
   onMount(() => {
     setTimeout(() => { visible = true; }, 500)
   });
-
-  // let bg = document.getElementById("header");
-  // let test = bg.style.backgroundSize;
-  // test = y+"%";
-  // window.addEventListener('scroll', function() {
-  //   bg.style.backgroundSize = 
-  // })
 </script>
 
 
@@ -110,7 +103,7 @@
 {#if y >= 300}
   <div transition:fly="{{ y: 30, duration: 700 }}" class="mainContainer">
     <h1 transition:fly="{{ y: -30, duration: 1500 }}">Built for <span style="color: coral"> devs</span></h1>
-    <p transition:fly="{{ y: -30, duration: 1500 }}">Developed under tech accelerator, OS Labs, <span style="font-weight: 700; color: rgb(255, 50, 57)"> DeLorean</span> is Svelte's the first time traveling debugger tool that allows you to jump from state to state seamlessly.DeLorean features a clean, minimal UI that's easily accessible from within a Chrome Developer Tools panel. It displays the name of each component and the names of all variables that each component contains. Each variable displays its value at whatever point in time you are examining.</p>
+    <p transition:fly="{{ y: -30, duration: 1500 }}">Developed under tech accelerator, OS Labs, <span style="font-weight: 700; color: rgb(255, 50, 57)"> DeLorean</span> is Svelte's first time-traveling debugger tool that allows you to seamlessly jump from state to state. DeLorean features a clean, minimal UI that is easily accessible within the Chrome Developer Tools panel. It displays the names of all variables within each stateful component rendered on the app. Each variable displays its value at the given point in time you are examining.</p>
   </div>
 {/if}
 
@@ -133,14 +126,14 @@
       {#if y >= 1400}
       <span class="featureText">
         <div class="gifRight"><div transition:fly="{{ x: -30, duration: 700 }}" class="gifPlaceholder"><img class="gif" src={gifs.timeTravel} alt="time-traveling"></div></div>
-        <p transition:fly="{{ x: 30, duration: 700 }}" class="feat featRight"><strong>Time Travel</strong><br><span><span style="font-weight: 700; color: rgb(255, 90, 57)"> DeLorean</span> resets your application's state to the values it contained at any point, allowing for step-by-step examination of state change sequences.</span></p>
+        <p transition:fly="{{ x: 30, duration: 700 }}" class="feat featRight"><strong>Time Travel</strong><br><span>Upon clicking a State button on<span style="font-weight: 700; color: rgb(255, 90, 57)"> DeLorean</span>, you can see your application's state at that given snapshot, both in the DevTool as well as in the app, allowing for step-by-step examination of state change sequences.</span></p>
       </span>
       {/if}
       <br>
       <br>
       {#if y >= 1800}
       <span class="featureText">
-        <p transition:fly="{{ x: 30, duration: 700 }}" class="feat featLeft"><strong>New Branches</strong><br><span>End User may alter state within a previous state, <span style="font-weight: 700; color: rgb(255, 90, 57)"> DeLorean</span> will simply create a new timeline that is now tracked in the Dev Tools panel.</span></p>
+        <p transition:fly="{{ x: 30, duration: 700 }}" class="feat featLeft"><strong>New Branches</strong><br><span>When you change state while examining a previous state, <span style="font-weight: 700; color: rgb(255, 90, 57)"> DeLorean</span> will simply create and track a new timeline in the app and Dev Tools panel.</span></p>
         <div transition:fly="{{ x: -30, duration: 700 }}" class="gifPlaceholder"><img class="gif" src={gifs.newMemory} alt="showing-UI"></div>
       </span>
       {/if}
@@ -151,14 +144,17 @@
     <div transition:fly="{{ y: -30, duration: 700 }}" id="getStartedBackground">
       <div id="getStarted">
       <h1 transition:fly="{{ y: -30, duration: 1500 }}">How to Get Started</h1>
-        <div transition:fly="{{ y: 30, duration: 1500 }}" id="steps">
-          <strong>Step 1:</strong> To install DeLorean simply navigate to the DeLorean GitHub page. If you're interested in learning more about how DeLorean works, feel free to clone the repo! Otherwise, just download the <i>chrome_extension</i> folder and save it somewhere on your computer.
+        <div transition:fly="{{ y: 30, duration: 1500  }}" id="steps">
+          <strong>Step 1:</strong> To install DeLorean, head to the 
+          <a style="font-family: Raleway, Arial, Helvetica, sans;
+          font-size: 18px;" href={links.gh} target="_blank">DeLorean GitHub page</a>
+          . If you're interested in learning more about how DeLorean works, feel free to clone the repo! Otherwise, just download the <i>chrome_extension</i> folder and save it somewhere on your computer.
           <br>
           <br>
-          <strong>Step 2:</strong> Then navigate to Chrome's extensions page. Ensure you are in developer mode by clicking the 'Developer Mode' switch in the top-right corner of the page. Click on 'Load Unpacked', and select the <i>chrome_extension</i> folder downloaded earlier to add DeLorean to your extensions.
+          <strong>Step 2:</strong> Navigate to Chrome's extensions page. Ensure you are in developer mode by clicking the 'Developer Mode' switch in the top-right corner of the page. Click on 'Load Unpacked', and select the <i>chrome_extension</i> folder downloaded earlier to add DeLorean to your extensions.
           <br>
           <br>
-          <strong>Step 3:</strong> Once your test app is up and running, open the Dev Tools and select DeLorean from the dropdown in the navbar. Then click Connect, and you should see your application's initial state loaded in the panel. Make some state changes and travel through time!
+          <strong>Step 3:</strong> Once your test app is up and running, open the Dev Tools panel and select DeLorean from the dropdown in the navbar. Then click Connect, and you should see your application's initial state loaded in the panel. Make some state changes and travel through time!
         </div>
     </div>
   </div>
@@ -350,12 +346,6 @@
   #featuresTitle {
     padding-bottom: 0.5em;
   }
-  
-  /* #bottomLinks {
-    display: flex;
-    justify-content: center;
-    background-color: white;
-  } */
 
   #bottomLinks {
     position: absolute;
