@@ -64,6 +64,8 @@
 
 .logo {
   margin: 0px 20px;
+  max-height: auto;
+  max-width: 50px;
 }
 
 .bio {
