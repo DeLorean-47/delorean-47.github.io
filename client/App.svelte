@@ -217,8 +217,10 @@
   }
 
   #logo {
-    padding-top: 8rem;
+    padding-top: 10rem;
     padding-bottom: 4.5rem;
+    max-width: 250px;
+    max-height: auto;
   }
 
   #githubButton {
@@ -230,6 +232,8 @@
     margin-right: auto;
     left: 0;
     right: 0;
+    max-width: 180px;
+    max-height: auto;
   }
   
     #githubButton:hover {
