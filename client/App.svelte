@@ -89,7 +89,7 @@
 <div id="header">
   {#if visible}
   <div class="oslabs">
-    <a href="https://opensourcelabs.io/"><img src={logos.oslabs} alt="OSLabs"></a>
+    <a href="https://opensourcelabs.io/"><img src={logos.oslabs} alt="OSLabs" style="max-width: 7.5em; max-height: auto;"></a>
   </div>
   <!-- {#if visible} -->
     <img transition:fly="{{ y: -50, duration: 1600 }}" id="logo" class="center" src={logos.delorean} alt="logo" >
