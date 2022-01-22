@@ -126,7 +126,7 @@
       {#if y >= 1400}
       <span class="featureText">
         <div class="gifRight"><div transition:fly="{{ x: -30, duration: 700 }}" class="gifPlaceholder"><img class="gif" src={gifs.timeTravel} alt="time-traveling"></div></div>
-        <p transition:fly="{{ x: 30, duration: 700 }}" class="feat featRight"><strong>Time Travel</strong><br><span>Upon clicking a State button on<span style="font-weight: 700; color: rgb(255, 90, 57)"> DeLorean</span>, you can see your application's state at that given snapshot, both in the DevTool as well as in the app, allowing for step-by-step examination of state change sequences.</span></p>
+        <p transition:fly="{{ x: 30, duration: 700 }}" class="feat featRight"><strong>Time Travel</strong><br><span>Upon clicking a State button on <span style="font-weight: 700; color: rgb(255, 90, 57)">DeLorean</span>, you can see your application's state at that given snapshot, both in the DevTool as well as in the app, allowing for step-by-step examination of state change sequences.</span></p>
       </span>
       {/if}
       <br>
@@ -147,8 +147,7 @@
         <div transition:fly="{{ y: 30, duration: 1500  }}" id="steps">
           <strong>Step 1:</strong> To install DeLorean, head to the 
           <a style="font-family: Raleway, Arial, Helvetica, sans;
-          font-size: 18px;" href={links.gh} target="_blank">DeLorean GitHub page</a>
-          . If you're interested in learning more about how DeLorean works, feel free to clone the repo! Otherwise, just download the <i>chrome_extension</i> folder and save it somewhere on your computer.
+          font-size: 18px;" href={links.gh} target="_blank">DeLorean GitHub page</a>. If you're interested in learning more about how DeLorean works, feel free to clone the repo! Otherwise, just download the <i>chrome_extension</i> folder and save it somewhere on your computer.
           <br>
           <br>
           <strong>Step 2:</strong> Navigate to Chrome's extensions page. Ensure you are in developer mode by clicking the 'Developer Mode' switch in the top-right corner of the page. Click on 'Load Unpacked', and select the <i>chrome_extension</i> folder downloaded earlier to add DeLorean to your extensions.
