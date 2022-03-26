@@ -14,7 +14,7 @@
     oslabs: "../public/assets/OSLabs.png"
   }
   const gifs = {
-    captureState: "../public/assets/capture_state.gif",
+    captureState: "./assets/capture_state.gif",
     connect: "../public/assets/connect.gif",
     newMemory: "../public/assets/new_memory.gif",
     timeTravel: "../public/assets/time_travel.gif"
@@ -258,6 +258,8 @@
     background-color: white;
   }
 
+
+
   #features {
     padding: 5em 7em 5em;
     margin-left: 3em;
@@ -396,5 +398,131 @@
   @keyframes fade {
     from { opacity: 0; }
     to { opacity: 1; }
+  }
+
+
+  /* media query for tablets */
+  @media only screen and (max-width: 768px) {
+    .mainContainer {
+      padding: 3em;
+      margin-left: 5em;
+      margin-right: 5em;
+      margin-top: 5em;
+      border-radius: 10px;
+    }
+
+
+    #features {
+      padding: 50px;
+      margin:auto;
+    }
+
+    .gifPlaceholder {
+    height: 222px;
+    width: 374.4px;
+    border-radius: 10px;
+    margin: 30px 20px;
+    background-color: rgb(15, 17, 40);
+    margin-bottom: 2em;
+    }
+
+    .gif {
+    display: flex;
+    height: 100%;
+    width: auto;
+    border-radius: 10px;
+    }
+
+    #getStarted {
+    padding: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    }
+  }
+
+  /* media query for mobile */
+  @media only screen and (max-width: 456px) {
+    .mainContainer {
+      padding: 3em;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 5em;
+      border-radius: 10px;
+    }
+
+    #features {
+      display:grid;
+      justify-items: center;
+      padding: 0;
+    }
+
+    .featureText {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    }
+
+    .feat {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    margin: 10px 10px;
+    }
+
+    .featLeft {
+    align-items: flex-start;
+    text-align: center;
+    padding-left: 0%;
+    }
+
+    .featRight {
+    align-items: flex-start;
+    padding-right: 0%;
+    text-align: center;
+  }
+
+    .gifPlaceholder {
+    height: 166.5px;
+    width: 280.8px;
+    border-radius: 10px;
+    margin: 30px 20px;
+    background-color: rgb(15, 17, 40);
+    margin-bottom: 2em;
+    }
+
+    .gif {
+    display: flex;
+    height: 100%;
+    width: auto;
+    justify-content: center;
+    border-radius: 10px;
+    }
+
+    .gifRight {
+    display: flex;
+    justify-content: center;
+    width: 100%
+  }
+
+    #getStarted {
+    padding: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+
+    
+  }
+  @media only screen and (max-width: 375px) {
+    #features {
+    margin-left: 25px;
+    margin-right: 25px;
+    }
+  }
+  @media only screen and (max-width: 320px) {
+    #features {
+      margin: auto; 
+    }
   }
 </style>
