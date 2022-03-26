@@ -5,6 +5,7 @@
 
   let visible = false;
   let y; 
+  const mediaQuery = window.matchMedia('(max-width: 456px)');
   
   const logos = {
     delorean: "../public/assets/logo(white).png",
@@ -14,7 +15,7 @@
     oslabs: "../public/assets/OSLabs.png"
   }
   const gifs = {
-    captureState: "./assets/capture_state.gif",
+    captureState: "../public/assets/capture_state.gif",
     connect: "../public/assets/connect.gif",
     newMemory: "../public/assets/new_memory.gif",
     timeTravel: "../public/assets/time_travel.gif"
@@ -125,8 +126,13 @@
       <br>
       {#if y >= 1400}
       <span class="featureText">
-        <div class="gifRight"><div transition:fly="{{ x: -30, duration: 700 }}" class="gifPlaceholder"><img class="gif" src={gifs.timeTravel} alt="time-traveling"></div></div>
-        <p transition:fly="{{ x: 30, duration: 700 }}" class="feat featRight"><strong>Time Travel</strong><br><span>Upon clicking a State button on <span style="font-weight: 700; color: rgb(255, 90, 57)">DeLorean</span>, you can see your application's state at that given snapshot, both in the DevTool as well as in the app, allowing for step-by-step examination of state change sequences.</span></p>
+        {#if mediaQuery.matches}
+          <p transition:fly="{{ x: 30, duration: 700 }}" class="feat featRight"><strong>Time Travel</strong><br><span>Upon clicking a State button on <span style="font-weight: 700; color: rgb(255, 90, 57)">DeLorean</span>, you can see your application's state at that given snapshot, both in the DevTool as well as in the app, allowing for step-by-step examination of state change sequences.</span></p>
+          <div class="gifRight"><div transition:fly="{{ x: -30, duration: 700 }}" class="gifPlaceholder"><img class="gif" src={gifs.timeTravel} alt="time-traveling"></div></div>
+        {:else}
+          <div class="gifRight"><div transition:fly="{{ x: -30, duration: 700 }}" class="gifPlaceholder"><img class="gif" src={gifs.timeTravel} alt="time-traveling"></div></div>
+          <p transition:fly="{{ x: 30, duration: 700 }}" class="feat featRight"><strong>Time Travel</strong><br><span>Upon clicking a State button on <span style="font-weight: 700; color: rgb(255, 90, 57)">DeLorean</span>, you can see your application's state at that given snapshot, both in the DevTool as well as in the app, allowing for step-by-step examination of state change sequences.</span></p>
+        {/if}
       </span>
       {/if}
       <br>
@@ -341,7 +347,7 @@
   }
 
   footer {
-    padding-bottom: 100em;
+    padding-bottom: 150em;
   }
 
   #padding {
@@ -511,7 +517,12 @@
     margin-right: auto;
     }
 
-
+    .teamMembers {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* align-items: center; */
+    /* margin: 0em 0.5em; */
+    }
     
   }
   @media only screen and (max-width: 375px) {
