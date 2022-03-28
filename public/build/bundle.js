@@ -1105,24 +1105,24 @@
     			set_style(img0, "max-height", "auto");
     			add_location(img0, file, 92, 41, 3086);
     			attr_dev(a0, "href", "https://opensourcelabs.io/");
-    			attr_dev(a0, "class", "svelte-19u6tup");
+    			attr_dev(a0, "class", "svelte-8nnl08");
     			add_location(a0, file, 92, 4, 3049);
-    			attr_dev(div, "class", "oslabs svelte-19u6tup");
+    			attr_dev(div, "class", "oslabs svelte-8nnl08");
     			add_location(div, file, 91, 2, 3024);
     			attr_dev(img1, "id", "logo");
-    			attr_dev(img1, "class", "center svelte-19u6tup");
+    			attr_dev(img1, "class", "center svelte-8nnl08");
     			if (!src_url_equal(img1.src, img1_src_value = /*logos*/ ctx[3].delorean)) attr_dev(img1, "src", img1_src_value);
     			attr_dev(img1, "alt", "logo");
     			add_location(img1, file, 95, 4, 3210);
     			add_location(br, file, 97, 2, 3339);
-    			attr_dev(img2, "class", "center svelte-19u6tup");
+    			attr_dev(img2, "class", "center svelte-8nnl08");
     			attr_dev(img2, "id", "githubButton");
     			if (!src_url_equal(img2.src, img2_src_value = /*logos*/ ctx[3].webstore)) attr_dev(img2, "src", img2_src_value);
     			attr_dev(img2, "alt", "github-webstore-button");
     			add_location(img2, file, 98, 37, 3381);
     			attr_dev(a1, "href", /*links*/ ctx[5].gh);
     			attr_dev(a1, "target", "_blank");
-    			attr_dev(a1, "class", "svelte-19u6tup");
+    			attr_dev(a1, "class", "svelte-8nnl08");
     			add_location(a1, file, 98, 2, 3346);
     		},
     		m: function mount(target, anchor) {
@@ -1207,15 +1207,15 @@
     			span1.textContent = "DeLorean";
     			t5 = text(" is Svelte's first time-traveling debugger tool that allows you to seamlessly jump from state to state. DeLorean features a clean, minimal UI that is easily accessible within the Chrome Developer Tools panel. It displays the names of all variables within each stateful component rendered on the app. Each variable displays its value at the given point in time you are examining.");
     			set_style(span0, "color", "coral");
-    			attr_dev(span0, "class", "svelte-19u6tup");
+    			attr_dev(span0, "class", "svelte-8nnl08");
     			add_location(span0, file, 105, 64, 3644);
     			add_location(h1, file, 105, 4, 3584);
     			set_style(span1, "font-weight", "700");
     			set_style(span1, "color", "rgb(255, 50, 57)");
-    			attr_dev(span1, "class", "svelte-19u6tup");
+    			attr_dev(span1, "class", "svelte-8nnl08");
     			add_location(span1, file, 106, 96, 3785);
     			add_location(p, file, 106, 4, 3693);
-    			attr_dev(div, "class", "mainContainer svelte-19u6tup");
+    			attr_dev(div, "class", "mainContainer svelte-8nnl08");
     			add_location(div, file, 104, 2, 3508);
     		},
     		m: function mount(target, anchor) {
@@ -1289,7 +1289,7 @@
     			h1 = element("h1");
     			h1.textContent = "Features";
     			attr_dev(h1, "id", "featuresTitle");
-    			attr_dev(h1, "class", "whiteText svelte-19u6tup");
+    			attr_dev(h1, "class", "whiteText svelte-8nnl08");
     			add_location(h1, file, 115, 6, 4313);
     		},
     		m: function mount(target, anchor) {
@@ -1355,20 +1355,20 @@
     			t2 = space();
     			div = element("div");
     			img = element("img");
-    			attr_dev(strong, "class", "svelte-19u6tup");
+    			attr_dev(strong, "class", "svelte-8nnl08");
     			add_location(strong, file, 120, 10, 4567);
     			add_location(br, file, 120, 40, 4597);
-    			attr_dev(span0, "class", "svelte-19u6tup");
+    			attr_dev(span0, "class", "svelte-8nnl08");
     			add_location(span0, file, 120, 44, 4601);
-    			attr_dev(p, "class", "feat featLeft svelte-19u6tup");
+    			attr_dev(p, "class", "feat featLeft svelte-8nnl08");
     			add_location(p, file, 119, 8, 4487);
-    			attr_dev(img, "class", "gif svelte-19u6tup");
+    			attr_dev(img, "class", "gif svelte-8nnl08");
     			if (!src_url_equal(img.src, img_src_value = /*gifs*/ ctx[4].captureState)) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "capturing-state");
     			add_location(img, file, 121, 81, 4823);
-    			attr_dev(div, "class", "gifPlaceholder svelte-19u6tup");
+    			attr_dev(div, "class", "gifPlaceholder svelte-8nnl08");
     			add_location(div, file, 121, 8, 4750);
-    			attr_dev(span1, "class", "featureText svelte-19u6tup");
+    			attr_dev(span1, "class", "featureText svelte-8nnl08");
     			add_location(span1, file, 118, 6, 4452);
     		},
     		m: function mount(target, anchor) {
@@ -1444,7 +1444,7 @@
     		c: function create() {
     			span = element("span");
     			if_block.c();
-    			attr_dev(span, "class", "featureText svelte-19u6tup");
+    			attr_dev(span, "class", "featureText svelte-8nnl08");
     			add_location(span, file, 127, 6, 4968);
     		},
     		m: function mount(target, anchor) {
@@ -1514,24 +1514,24 @@
     			span0 = element("span");
     			span0.textContent = "DeLorean";
     			t4 = text(", you can see your application's state at that given snapshot, both in the DevTool as well as in the app, allowing for step-by-step examination of state change sequences.");
-    			attr_dev(img, "class", "gif svelte-19u6tup");
+    			attr_dev(img, "class", "gif svelte-8nnl08");
     			if (!src_url_equal(img.src, img_src_value = /*gifs*/ ctx[4].timeTravel)) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "time-traveling");
     			add_location(img, file, 132, 105, 5730);
-    			attr_dev(div0, "class", "gifPlaceholder svelte-19u6tup");
+    			attr_dev(div0, "class", "gifPlaceholder svelte-8nnl08");
     			add_location(div0, file, 132, 32, 5657);
-    			attr_dev(div1, "class", "gifRight svelte-19u6tup");
+    			attr_dev(div1, "class", "gifRight svelte-8nnl08");
     			add_location(div1, file, 132, 10, 5635);
-    			attr_dev(strong, "class", "svelte-19u6tup");
+    			attr_dev(strong, "class", "svelte-8nnl08");
     			add_location(strong, file, 133, 80, 5883);
     			add_location(br, file, 133, 108, 5911);
     			set_style(span0, "font-weight", "700");
     			set_style(span0, "color", "rgb(255, 90, 57)");
-    			attr_dev(span0, "class", "svelte-19u6tup");
+    			attr_dev(span0, "class", "svelte-8nnl08");
     			add_location(span0, file, 133, 150, 5953);
-    			attr_dev(span1, "class", "svelte-19u6tup");
+    			attr_dev(span1, "class", "svelte-8nnl08");
     			add_location(span1, file, 133, 112, 5915);
-    			attr_dev(p, "class", "feat featRight svelte-19u6tup");
+    			attr_dev(p, "class", "feat featRight svelte-8nnl08");
     			add_location(p, file, 133, 10, 5813);
     		},
     		m: function mount(target, anchor) {
@@ -1624,24 +1624,24 @@
     			div1 = element("div");
     			div0 = element("div");
     			img = element("img");
-    			attr_dev(strong, "class", "svelte-19u6tup");
+    			attr_dev(strong, "class", "svelte-8nnl08");
     			add_location(strong, file, 129, 80, 5108);
     			add_location(br, file, 129, 108, 5136);
     			set_style(span0, "font-weight", "700");
     			set_style(span0, "color", "rgb(255, 90, 57)");
-    			attr_dev(span0, "class", "svelte-19u6tup");
+    			attr_dev(span0, "class", "svelte-8nnl08");
     			add_location(span0, file, 129, 150, 5178);
-    			attr_dev(span1, "class", "svelte-19u6tup");
+    			attr_dev(span1, "class", "svelte-8nnl08");
     			add_location(span1, file, 129, 112, 5140);
-    			attr_dev(p, "class", "feat featRight svelte-19u6tup");
+    			attr_dev(p, "class", "feat featRight svelte-8nnl08");
     			add_location(p, file, 129, 10, 5038);
-    			attr_dev(img, "class", "gif svelte-19u6tup");
+    			attr_dev(img, "class", "gif svelte-8nnl08");
     			if (!src_url_equal(img.src, img_src_value = /*gifs*/ ctx[4].timeTravel)) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "time-traveling");
     			add_location(img, file, 130, 105, 5536);
-    			attr_dev(div0, "class", "gifPlaceholder svelte-19u6tup");
+    			attr_dev(div0, "class", "gifPlaceholder svelte-8nnl08");
     			add_location(div0, file, 130, 32, 5463);
-    			attr_dev(div1, "class", "gifRight svelte-19u6tup");
+    			attr_dev(div1, "class", "gifRight svelte-8nnl08");
     			add_location(div1, file, 130, 10, 5441);
     		},
     		m: function mount(target, anchor) {
@@ -1734,24 +1734,24 @@
     			t4 = space();
     			div = element("div");
     			img = element("img");
-    			attr_dev(strong, "class", "svelte-19u6tup");
+    			attr_dev(strong, "class", "svelte-8nnl08");
     			add_location(strong, file, 141, 77, 6400);
     			add_location(br, file, 141, 106, 6429);
     			set_style(span0, "font-weight", "700");
     			set_style(span0, "color", "rgb(255, 90, 57)");
-    			attr_dev(span0, "class", "svelte-19u6tup");
+    			attr_dev(span0, "class", "svelte-8nnl08");
     			add_location(span0, file, 141, 172, 6495);
-    			attr_dev(span1, "class", "svelte-19u6tup");
+    			attr_dev(span1, "class", "svelte-8nnl08");
     			add_location(span1, file, 141, 110, 6433);
-    			attr_dev(p, "class", "feat featLeft svelte-19u6tup");
+    			attr_dev(p, "class", "feat featLeft svelte-8nnl08");
     			add_location(p, file, 141, 8, 6331);
-    			attr_dev(img, "class", "gif svelte-19u6tup");
+    			attr_dev(img, "class", "gif svelte-8nnl08");
     			if (!src_url_equal(img.src, img_src_value = /*gifs*/ ctx[4].newMemory)) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "showing-UI");
     			add_location(img, file, 142, 81, 6736);
-    			attr_dev(div, "class", "gifPlaceholder svelte-19u6tup");
+    			attr_dev(div, "class", "gifPlaceholder svelte-8nnl08");
     			add_location(div, file, 142, 8, 6663);
-    			attr_dev(span2, "class", "featureText svelte-19u6tup");
+    			attr_dev(span2, "class", "featureText svelte-8nnl08");
     			add_location(span2, file, 140, 6, 6296);
     		},
     		m: function mount(target, anchor) {
@@ -1877,32 +1877,32 @@
     			strong2.textContent = "Step 3:";
     			t17 = text(" Once your test app is up and running, open the Dev Tools panel and select DeLorean from the dropdown in the navbar. Then click Connect, and you should see your application's initial state loaded in the panel. Make some state changes and travel through time!");
     			add_location(h1, file, 151, 6, 6982);
-    			attr_dev(strong0, "class", "svelte-19u6tup");
+    			attr_dev(strong0, "class", "svelte-8nnl08");
     			add_location(strong0, file, 153, 10, 7137);
     			set_style(a, "font-family", "Raleway, Arial, Helvetica, sans");
     			set_style(a, "font-size", "18px");
     			attr_dev(a, "href", /*links*/ ctx[5].gh);
     			attr_dev(a, "target", "_blank");
-    			attr_dev(a, "class", "svelte-19u6tup");
+    			attr_dev(a, "class", "svelte-8nnl08");
     			add_location(a, file, 154, 10, 7206);
     			add_location(i0, file, 155, 208, 7470);
     			add_location(br0, file, 156, 10, 7551);
     			add_location(br1, file, 157, 10, 7566);
-    			attr_dev(strong1, "class", "svelte-19u6tup");
+    			attr_dev(strong1, "class", "svelte-8nnl08");
     			add_location(strong1, file, 158, 10, 7581);
     			add_location(i1, file, 158, 224, 7795);
     			add_location(br2, file, 159, 10, 7891);
     			add_location(br3, file, 160, 10, 7906);
-    			attr_dev(strong2, "class", "svelte-19u6tup");
+    			attr_dev(strong2, "class", "svelte-8nnl08");
     			add_location(strong2, file, 161, 10, 7921);
     			attr_dev(div0, "id", "steps");
-    			attr_dev(div0, "class", "svelte-19u6tup");
+    			attr_dev(div0, "class", "svelte-8nnl08");
     			add_location(div0, file, 152, 8, 7064);
     			attr_dev(div1, "id", "getStarted");
-    			attr_dev(div1, "class", "svelte-19u6tup");
+    			attr_dev(div1, "class", "svelte-8nnl08");
     			add_location(div1, file, 150, 6, 6954);
     			attr_dev(div2, "id", "getStartedBackground");
-    			attr_dev(div2, "class", "svelte-19u6tup");
+    			attr_dev(div2, "class", "svelte-8nnl08");
     			add_location(div2, file, 149, 4, 6871);
     		},
     		m: function mount(target, anchor) {
@@ -2017,12 +2017,12 @@
     			}
 
     			attr_dev(h1, "id", "teamText");
-    			attr_dev(h1, "class", "whiteText svelte-19u6tup");
+    			attr_dev(h1, "class", "whiteText svelte-8nnl08");
     			add_location(h1, file, 170, 4, 8332);
-    			attr_dev(div0, "class", "row svelte-19u6tup");
+    			attr_dev(div0, "class", "row svelte-8nnl08");
     			add_location(div0, file, 171, 4, 8436);
     			attr_dev(div1, "id", "teamMembers");
-    			attr_dev(div1, "class", "whiteText teamMembers svelte-19u6tup");
+    			attr_dev(div1, "class", "whiteText teamMembers svelte-8nnl08");
     			add_location(div1, file, 169, 2, 8275);
     		},
     		m: function mount(target, anchor) {
@@ -2177,7 +2177,7 @@
     	const block = {
     		c: function create() {
     			footer = element("footer");
-    			attr_dev(footer, "class", "svelte-19u6tup");
+    			attr_dev(footer, "class", "svelte-8nnl08");
     			add_location(footer, file, 182, 0, 8671);
     		},
     		m: function mount(target, anchor) {
@@ -2207,7 +2207,7 @@
     		c: function create() {
     			span = element("span");
     			attr_dev(span, "id", "padding");
-    			attr_dev(span, "class", "svelte-19u6tup");
+    			attr_dev(span, "class", "svelte-8nnl08");
     			add_location(span, file, 180, 0, 8636);
     		},
     		m: function mount(target, anchor) {
@@ -2343,34 +2343,34 @@
     			attr_dev(link, "rel", "stylesheet");
     			add_location(link, file, 82, 2, 2723);
     			attr_dev(div0, "id", "header");
-    			attr_dev(div0, "class", "svelte-19u6tup");
+    			attr_dev(div0, "class", "svelte-8nnl08");
     			add_location(div0, file, 89, 0, 2988);
     			add_location(br0, file, 124, 6, 4924);
     			add_location(br1, file, 125, 6, 4935);
     			add_location(br2, file, 137, 6, 6252);
     			add_location(br3, file, 138, 6, 6263);
     			attr_dev(div1, "id", "features");
-    			attr_dev(div1, "class", "svelte-19u6tup");
+    			attr_dev(div1, "class", "svelte-8nnl08");
     			add_location(div1, file, 113, 2, 4266);
     			add_location(br4, file, 146, 6, 6841);
     			add_location(div2, file, 111, 0, 4257);
     			attr_dev(a0, "href", /*links*/ ctx[5].gh);
     			attr_dev(a0, "target", "_blank");
-    			attr_dev(a0, "class", "svelte-19u6tup");
+    			attr_dev(a0, "class", "svelte-8nnl08");
     			add_location(a0, file, 185, 59, 8755);
     			attr_dev(a1, "href", /*links*/ ctx[5].li);
     			attr_dev(a1, "target", "_blank");
-    			attr_dev(a1, "class", "svelte-19u6tup");
+    			attr_dev(a1, "class", "svelte-8nnl08");
     			add_location(a1, file, 186, 2, 8806);
     			attr_dev(a2, "href", /*links*/ ctx[5].med);
     			attr_dev(a2, "target", "_blank");
-    			attr_dev(a2, "class", "svelte-19u6tup");
+    			attr_dev(a2, "class", "svelte-8nnl08");
     			add_location(a2, file, 186, 53, 8857);
     			attr_dev(p, "id", "footerText");
-    			attr_dev(p, "class", "svelte-19u6tup");
+    			attr_dev(p, "class", "svelte-8nnl08");
     			add_location(p, file, 185, 22, 8718);
     			attr_dev(div3, "id", "bottomLinks");
-    			attr_dev(div3, "class", "svelte-19u6tup");
+    			attr_dev(div3, "class", "svelte-8nnl08");
     			add_location(div3, file, 185, 0, 8696);
     		},
     		l: function claim(nodes) {

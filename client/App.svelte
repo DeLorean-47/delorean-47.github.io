@@ -408,6 +408,30 @@
 
 
   /* media query for tablets */
+  @media only screen and (max-width: 1100px) {
+    #features {
+      padding: 50px;
+      margin:auto;
+    }
+
+    .gifPlaceholder {
+    height: 296px;
+    width: 499.2px;
+    border-radius: 10px;
+    margin: 30px 20px;
+    background-color: rgb(15, 17, 40);
+    margin-bottom: 2em;
+    }
+
+    .gif {
+    display: flex;
+    height: 100%;
+    width: auto;
+    border-radius: 10px;
+    }
+  }
+
+
   @media only screen and (max-width: 768px) {
     .mainContainer {
       padding: 3em;
