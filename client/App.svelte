@@ -471,7 +471,7 @@
   }
 
   /* media query for mobile */
-  @media only screen and (max-width: 456px) {
+  @media only screen and (max-width: 550px) {
     .mainContainer {
       padding: 3em;
       margin-left: auto;
@@ -541,12 +541,7 @@
     margin-right: auto;
     }
 
-    .teamMembers {
-    display: grid;
-    grid-template-columns: 1fr;
-    /* align-items: center; */
-    /* margin: 0em 0.5em; */
-    }
+    
     
   }
   @media only screen and (max-width: 375px) {
