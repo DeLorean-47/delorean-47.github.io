@@ -34,20 +34,15 @@
   width: 300px; 
   height: 400px;
   object-fit: cover;
-  /* object-position: 50% 20%; */
   border-radius: 0 20px;
 }
 
 .column {
   display: flex;
-  flex-direction: center;
   justify-content: center;
-  width: 33.3%;
+  /* width: 33.3%; */
   min-width: 300px;
-  /* margin-bottom: 3%; */
-  margin: 0 3% 3% 3%;
   padding: 20 8 5 5px;
-  margin-left: 0;
 }
 
 .card {

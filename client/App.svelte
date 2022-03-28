@@ -337,13 +337,15 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 2em;
+    max-width: 1300px;
   }
 
   .teamMembers {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0em 0.5em;
+    /* margin: 0em 0.5em; */
   }
 
   footer {
@@ -363,11 +365,13 @@
     left: 0;
     right: 0;
     text-align: center;
+    margin-top: 4em;
     background-color: white;
   }
 
   #footerText {
     color: black;
+    
   }
 
   a {
