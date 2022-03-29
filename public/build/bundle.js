@@ -2696,7 +2696,7 @@
     	validate_slots('App', slots, []);
     	let visible = false;
     	let y;
-    	const mediaQuery = window.matchMedia('(max-width: 456px)');
+    	const mediaQuery = window.matchMedia('(max-width: 550px)');
 
     	const logos = {
     		delorean: "../public/assets/logo(white).png",
